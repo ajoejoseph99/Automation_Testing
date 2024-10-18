@@ -30,6 +30,16 @@
      npm install
      ```
      --run this command only if it was not run by the script already!
+
+   Optionals
+   ```bash
+   npm install npm install @wdio/spec-reporter --save-dev
+   ```
+
+   Add the spec reporter under the reporters section:
+   ```bash
+   reporters: ['spec'],
+   ```
         
 3. Open the package.json file
    
