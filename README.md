@@ -41,10 +41,15 @@
    reporters: ['spec'],
    ```
         
-3. Open the package.json file
+5. Open the package.json file
    
     ```bash
       "wdio": "wdio run ./wdio.conf.js"
      ```
     Add this line under the "scripts" section right under the "tests"
-   
+
+6. For on prepare hookerror:
+
+   ```bash
+   npm install typescript@latest ts-node@latest
+   ```
