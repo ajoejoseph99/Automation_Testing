@@ -33,7 +33,7 @@
 
    Optionals
    ```bash
-   npm install npm install @wdio/spec-reporter --save-dev
+   npm install @wdio/spec-reporter --save-dev
    ```
 
    Add the spec reporter under the reporters section:
